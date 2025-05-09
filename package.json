@@ -4,9 +4,9 @@
   "version": "0.8.3",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/u14app/deep-research"
+    "url": "https://github.com/ct-jyjntc/deep-research"
   },
-  "bugs": "https://github.com/u14app/deep-research/issues",
+  "bugs": "https://github.com/ct-jyjntc/deep-research/issues",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

@@ -2,7 +2,7 @@
 <h1>Deep Research</h1>
 
 ![GitHub deployments](https://img.shields.io/github/deployments/u14app/gemini-next-chat/Production)
-![GitHub Release](https://img.shields.io/github/v/release/u14app/deep-research)
+![GitHub Release](https://img.shields.io/github/v/release/ct-jyjntc/deep-research)
 ![Docker Image Size](https://img.shields.io/docker/image-size/xiangfa/deep-research/latest)
 ![Docker Pulls](https://img.shields.io/docker/pulls/xiangfa/deep-research)
 [![License: MIT](https://img.shields.io/badge/License-MIT-default.svg)](https://opensource.org/licenses/MIT)
@@ -79,7 +79,7 @@ Follow these steps to get Deep Research up and running on your local browser.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/u14app/deep-research.git
+   git clone https://github.com/ct-jyjntc/deep-research.git
    cd deep-research
    ```
 
@@ -353,7 +353,7 @@ For major changes, please open an issue first to discuss your proposed changes.
 
 ## ✉️ Contact
 
-If you have any questions, suggestions, or feedback, please create a new [issue](https://github.com/u14app/deep-research/issues).
+If you have any questions, suggestions, or feedback, please create a new [issue](https://github.com/ct-jyjntc/deep-research/issues).
 
 ## 📝 License
 
