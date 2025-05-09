@@ -87,7 +87,7 @@ type SettingProps = {
 };
 
 const BUILD_MODE = process.env.NEXT_PUBLIC_BUILD_MODE;
-const VERSION = process.env.NEXT_PUBLIC_VERSION;
+
 const DISABLED_AI_PROVIDER = process.env.NEXT_PUBLIC_DISABLED_AI_PROVIDER || "";
 const DISABLED_SEARCH_PROVIDER =
   process.env.NEXT_PUBLIC_DISABLED_SEARCH_PROVIDER || "";
@@ -3238,20 +3238,14 @@ function Setting({ open, onClose }: SettingProps) {
                   )}
                 />
                 <div className="from-item">
-                  <Label>{t("setting.version")}</Label>
                   <div className="col-span-3 text-center leading-9">
-                    {`v${VERSION}`}
-                    <small className="ml-1">
-                      (
-                      <a
-                        className="hover:underline hover:underline-offset-4 hover:text-blue-500"
-                        href="https://github.com/ct-jyjntc/deep-research"
-                        target="_blank"
-                      >
-                        {t("setting.checkForUpdate")}
-                      </a>
-                      )
-                    </small>
+                    <a
+                      className="hover:underline hover:underline-offset-4 hover:text-blue-500"
+                      href="https://github.com/ct-jyjntc/deep-research"
+                      target="_blank"
+                    >
+                      {t("setting.checkForUpdate")}
+                    </a>
                   </div>
                 </div>
                 <div className="from-item">

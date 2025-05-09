@@ -4,7 +4,7 @@ import { Settings, Github, History, BookText } from "lucide-react";
 import { Button } from "@/components/Internal/Button";
 import { useGlobalStore } from "@/store/global";
 
-const VERSION = process.env.NEXT_PUBLIC_VERSION;
+
 
 function Header() {
   const { t } = useTranslation();
@@ -16,7 +16,7 @@ function Header() {
         <a href="https://github.com/ct-jyjntc/deep-research" target="_blank">
           <h1 className="text-left text-xl font-semibold">
             {t("title")}
-            <small className="ml-2 font-normal text-base">v{VERSION}</small>
+
           </h1>
         </a>
         <div className="flex">
