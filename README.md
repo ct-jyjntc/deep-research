@@ -27,6 +27,7 @@ Deep Research uses a variety of powerful AI models to generate in-depth research
    ```bash
    git clone https://github.com/ct-jyjntc/deep-research.git
    cd deep-research
+   cp .env.example .env
    ```
 
 2. **Install dependencies:**
